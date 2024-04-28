@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.katta{
+    max-width: 1400px;
+}
+.name{
+    background-image: url("chef.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    text-align: center;
+    background-size:contain;
+    margin: 40px ;
+    
+    
+}
+.retsep{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 200px;
+margin-right: 300px;
+    border-bottom:2px solid rgba(0, 0, 0, 0.432);
+    border-top: 2px solid rgba(0, 0, 0, 0.063);
+    
+}
+.sarlavha{
+    border: 2px solid white;
+    background-color: white;
+    padding: 10px;
+    
+}
+.sarlavha:hover{
+    background-color: darkgray;
+    transition: 0.3s all linear;
+
+}
+.big{
+display: flex;
+flex-wrap: wrap;
+margin-left: 100px;
+margin-top:20px;
+max-width: 1200px;
+
+}
+.box{
+    width: 30%;
+    margin: 20px;
+
+}
+.btn{
+    color: white;
+}
+.btn1{
+    background-color: bisque;
+    border: 2px solid bisque;
+    
+}
+.btn2{
+   background-color: crimson; 
+   border: 2px solid crimson;
+}
+.btn3{
+    background-color: chartreuse;
+    border: 2px solid chartreuse;
+}
+.btn4{
+    margin-top: 10px;
+    background-color: aquamarine;
+    border: 2px solid aquamarine;
+}
+.h2{
+    margin: 10px;
+}
+ .but{
+    padding: 10px;
+    background-color: white;
+    border: 3px solid red;
+    color: red; 
+    margin-left: 700px;
+    margin-top: 20px;
+}
+.but:hover{
+    background-color: aquamarine;
+    transition: 0.3s all linear;
+    color: black;
+}
